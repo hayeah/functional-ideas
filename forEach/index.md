@@ -4,7 +4,7 @@
 
 ### 箭头函数小计
 
-![箭头函数](http://es6.ruanyifeng.com/#docs/function#箭头函数)
+[ES6 箭头函数](http://es6.ruanyifeng.com/#docs/function#箭头函数)
 
 ES6 的 `=>` 语法可以让匿名函数更简洁，取代 `function` 关键词。
 
