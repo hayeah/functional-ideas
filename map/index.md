@@ -40,3 +40,41 @@ for (let i = 0; i < numbers.length; i++) {
 result
 // => [2, 4, 6]
 ```
+
+## 高阶函数
+
+`map` 之所以被称为 “高阶函数” 是因为它的具体行为由传递进去的函数来定制。
+
+```js
+var numbers = [1, 2, 3];
+
+numbers.map(x => x + 2);
+// [ 3, 4, 5 ]
+
+numbers.map(x => x * 2);
+// [ 2, 4, 6 ]
+
+numbers.map(x => x * x);
+// [ 1, 4, 9 ]
+```
+
+如果把上面三个 'map' 改成循环的写法, 你会发现它们都是一样的，只有 `push` 的东西会变：
+
+```js
+var result = [];
+for (let i = 0; i < numbers.length; i++) {
+	let x = numbers[i];
+
+	result.push(???);
+	// result.push(x + 2);
+	// result.push(x * 2);
+	// result.push(x * x);
+}
+```
+
+`map` 用它的参数（一个函数）来计算要添加到 result 里面的值。
+
+# 练习
+
++ wrapElements
++ implementMap
