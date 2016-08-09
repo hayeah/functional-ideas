@@ -59,4 +59,6 @@ numbers.forEach(x => {
 + [print-presidents.js](print-presidents.js)
 + [join-words.js](join-words.js)
 + [nested-numbers.js](nested-numbers.js)
++ [reverse-array.js](reverse-array.js)
++ [concat-arrays.js](concat-arrays.js)
 
