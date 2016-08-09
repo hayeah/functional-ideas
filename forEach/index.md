@@ -2,42 +2,25 @@
 
 `Array.prototype.forEach(fn)` 方法从头至尾遍历数组，为每个元素调用指定的函数。
 
-+ [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+### 箭头函数小计
 
-## 箭头函数小计
+![箭头函数](http://es6.ruanyifeng.com/#docs/function#箭头函数)
 
-ES6 的 `=>` 语法可以让代码更简洁。
-
-以下代码效果 “差不多”，细节上有些许不一样。大部分的情况下用 `=>` 安全性比较高。
+ES6 的 `=>` 语法可以让匿名函数更简洁，取代 `function` 关键词。
 
 ```js
-// 正常声明函数的姿势
-function add(x) {
-	return x + 1;
-}
+var numbers = [1, 2, 3];
 
-// 给 add 附属一个函数值，和上面效果相似
-var add = function (x) {
-	return x + 1;
-}
-
-// 用箭头函数替换掉 `function` 关键词
-var add = (x) => {
-	return x + 1;
-}
-
-// 只有一个参数可以省略括弧
-var add = x => {
-	return x + 1;
-}
-
-// 只有一个表达式的话可以省略花括弧和 return 关键词
-var add = x => x + 1;
+numbers.forEach(x => console.log(x));
+// 同等于
+numbers.forEach(function (x) {
+	console.log(x);
+});
 ```
 
 ## 例子
 
-打印每个元素：
+用 `forEach` 打印每个元素：
 
 ```js
 var numbers = [1, 2, 3];
@@ -46,6 +29,18 @@ numbers.forEach(x => {
 	console.log(x)
 });
 ```
+
+`forEach` 的效果相当于循环遍历一个数组，如下：
+
+```js
+var numbers = [1, 2, 3];
+
+for (var i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+```
+
+## 例子 2
 
 加总每个元素：
 
