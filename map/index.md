@@ -81,5 +81,7 @@ for (let i = 0; i < numbers.length; i++) {
 # 练习
 
 + [wrapElements.js](wrapElements.js)
-+ [map-values.js](map-values.js)
 + [reorder-presidents.js](reorder-presidents.js)
++ [map-values.js](map-values.js)
++ [map-multiple-values.js](map-multiple-values.js)
++ [implement-map.js](implement-map.js)
