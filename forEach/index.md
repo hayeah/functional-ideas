@@ -35,8 +35,9 @@ numbers.forEach(x => {
 ```js
 var numbers = [1, 2, 3];
 
-for (var i = 0; i < numbers.length; i++) {
-  console.log(numbers[i]);
+for (let i = 0; i < numbers.length; i++) {
+	let x = numbers[i];
+	console.log(x);
 }
 ```
 
