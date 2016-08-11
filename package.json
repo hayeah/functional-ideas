@@ -1,0 +1,23 @@
+{
+  "name": "functional-ideas",
+  "version": "1.0.0",
+  "description": "练习函数式编程的一些概念",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayeah/functional-ideas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayeah/functional-ideas/issues"
+  },
+  "homepage": "https://github.com/hayeah/functional-ideas#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
