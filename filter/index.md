@@ -29,3 +29,5 @@ numbers.filter(x => x < 0);
 + [compact-array.js](compact-array.js)
 + [j-presidents.js](j-presidents.js)
 + [filter-not.js](filter-not.js)
++ [nested-filter.js](nested-filter.js)
++ [implement-filter.js](implement-filter.js)
