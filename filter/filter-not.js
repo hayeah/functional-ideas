@@ -6,7 +6,7 @@
 const { equal } = require("../equal");
 
 function filterNot(array, test) {
-	return array.filter(o => !test(o));
+	// ???
 }
 
 equal(
