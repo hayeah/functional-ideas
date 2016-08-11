@@ -22,11 +22,11 @@ equal(
 	["John Adams", "James Madison", "James Monroe"]
 );
 
+// 输出名字起头为 J 的年份
 function yearsStartingWithJ(presidents) {
 	// ???
 }
 
-// 输出名字起头为 J 的年份
 equal(
 	yearsStartingWithJ(presidents),
 	[1797, 1809, 1817]
