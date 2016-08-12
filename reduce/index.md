@@ -108,4 +108,8 @@ array.reduce((result, element) => result * element, 1);
 # 练习
 
 + [basic.js](basic.js)
++ [nested-arrays.js](nested-arrays.js)
++ [implement-map.js](implement-map.js)
++ [pairs-to-object.js](pairs-to-object.js)
++ [sum-greater-than-zero.js](sum-greater-than-zero.js)
 + [nested-sum.js](nested-sum.js)
