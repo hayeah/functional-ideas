@@ -1,6 +1,6 @@
 # reduce
 
-`reduce(result, reducer, initial)` 方法接收一个函数作为累加器（reducer），数组中的每个值（从左到右）开始合并，最终为一个值。
+`reduce(reducer, initial)` 方法接收一个函数作为累加器（reducer），数组中的每个值（从左到右）开始合并，最终为一个值。
 
 许多循环问题以抽象的角度来看有同样的结构，我们只需要传函数进去替代不一样的部分。
 
