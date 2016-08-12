@@ -104,3 +104,7 @@ array.reduce(reducer, result);
 var array = [1, 2, 3, 4];
 array.reduce((result, element) => result * element, 1);
 ```
+
+# 练习
+
++ [basic.js](basic.js)
