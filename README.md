@@ -1,12 +1,12 @@
 # JavaScript 语法的练习
 
-+ [basic/array.md]
-+ [basic/variables.md]
-+ [basic/function.md]
++ [数组](basic/array.md)
++ [变量](basic/variables.md)
++ [函数](basic/function.md)
 
 # JavaScript 高阶函数
 
-+ [forEach/index.md]
-+ [map/index.md]
-+ [filter/index.md]
-+ [reduce/index.md]
++ [forEach](forEach/index.md)
++ [map](map/index.md)
++ [filter](filter/index.md)
++ [reduce](reduce/index.md)
